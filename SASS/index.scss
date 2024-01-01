@@ -2,7 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  
+
 }
 
 :root{
@@ -45,7 +45,7 @@ header {
       h1 {
         font-family: var(--primary-font-family);
         text-transform:uppercase;
-        font-size: clamp(45px, 66px, 80px);
+        font-size: 45px;
       }
       h2 {
         font-family: var(--secondary-font-family);
@@ -56,7 +56,7 @@ header {
       }
       p{
         font-weight: 100;
-        width: clamp(200px, 700px, 900px);
+        width: clamp(200px, 400px, 500px);
         text-align: justify;
         text-justify: auto;
       }
