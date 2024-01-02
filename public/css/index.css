@@ -36,7 +36,7 @@ header .nav-link {
 .main-hero {
   overflow-x: clip;
   position: relative;
-  padding: 50px 0;
+  padding: 100px 0 100px 0;
 }
 .main-hero .container {
   position: relative;
@@ -44,7 +44,6 @@ header .nav-link {
 .main-hero .container article {
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -76,11 +75,10 @@ header .nav-link {
   height: 500px;
 }
 .main-hero .container .links {
+  gap: 5px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
+  flex-wrap: nowrap;
 }
 .main-hero .box1 {
   transform: rotate(45deg);
@@ -105,7 +103,12 @@ header .nav-link {
 }
 
 .about {
-  padding: 80px 0;
+  background-color: #252422;
+  color: white;
+  position: relative;
+}
+.about .hero {
+  padding: 200px 0 200px 0;
 }
 .about .hero h1 {
   font-family: var(--primary-font-family);
@@ -115,17 +118,26 @@ header .nav-link {
   margin-bottom: 5%;
 }
 .about .hero p {
-  color: #5a5a5a;
+  font-weight: 100;
+}
+.about .hero figure {
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  transform: translate(-50%);
 }
 .about .hero figure img {
-  height: 500px;
-  border-radius: 10px;
-  box-shadow: 10px 10px black;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0 0 150px red;
+}
+.about .hero .container {
+  margin-top: 10%;
 }
 
 @media screen and (max-width: 61.938em) {
   .main-hero {
-    padding: 120px 0 200px 0;
+    padding: 100px 0 250px 0;
   }
   .main-hero h1 {
     font-size: 24px;
@@ -141,11 +153,9 @@ header .nav-link {
   }
   .about figure {
     padding-top: 50px;
-    display: flex;
-    justify-content: center;
   }
   .about figure img {
-    height: 350px !important;
+    height: 300px !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
