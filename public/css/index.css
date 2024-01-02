@@ -155,7 +155,7 @@ header .nav-link {
     padding-top: 50px;
   }
   .about figure img {
-    height: 300px !important;
+    height: 250px !important;
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
