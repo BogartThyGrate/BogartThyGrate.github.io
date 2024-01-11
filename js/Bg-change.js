@@ -9,4 +9,11 @@ else{
     document.getElementById("navbar").style.backgroundColor = "transparent";
     document.getElementById("navbar").style.transition = "720ms";
 }
+if(document.body.scrollTop> 200 || document.documentElement.scrollTop > 200){
+    document.getElementById("scrollTop").style.display = "block";
+    document.body.scrollTop = -1;
+}
+else{
+    document.getElementById("scrollTop").style.display = "none";
+}
 }
