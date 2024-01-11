@@ -107,6 +107,24 @@ article p {
   position: absolute;
   box-shadow: 10px 10px 30px red;
 }
+.main-hero .custom-shape-divider-bottom-1705003094 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.main-hero .custom-shape-divider-bottom-1705003094 svg {
+  position: relative;
+  display: block;
+  width: calc(113% + 1.3px);
+  height: 200px;
+}
+.main-hero .custom-shape-divider-bottom-1705003094 .shape-fill {
+  fill: #252422;
+}
 
 .about {
   background-color: #252422;
@@ -146,6 +164,7 @@ article p {
 
 .project {
   padding: 200px 0 200px 0;
+  position: relative;
 }
 .project .row {
   margin-top: 50px;
@@ -186,6 +205,41 @@ article p {
   border-radius: 10px;
   width: 100%;
   margin: auto;
+}
+.project .custom-shape-divider-top-1705002414 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.project .custom-shape-divider-top-1705002414 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 200px;
+}
+.project .custom-shape-divider-top-1705002414 .shape-fill {
+  fill: #252422;
+}
+.project .custom-shape-divider-bottom-1705002626 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.project .custom-shape-divider-bottom-1705002626 svg {
+  position: relative;
+  display: block;
+  width: calc(150% + 1.3px);
+  height: 238px;
+}
+.project .custom-shape-divider-bottom-1705002626 .shape-fill {
+  fill: #252424;
 }
 
 .contact {
