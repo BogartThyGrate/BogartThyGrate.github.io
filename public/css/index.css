@@ -221,8 +221,8 @@ article p {
   z-index: 10;
   padding: 10px;
   border-radius: 5px;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 50px;
 }
 .scrollTop a {
   color: white;
@@ -285,5 +285,19 @@ article p {
 @media (min-width: 992px) and (max-width: 1400px) {
   .hero .box1 {
     right: -210px;
+  }
+}
+article > * {
+  opacity: 0;
+  scale: 0.8;
+  animation: fadeIn linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+}
+
+@keyframes fadeIn {
+  to {
+    scale: 1;
+    opacity: 1;
   }
 }
