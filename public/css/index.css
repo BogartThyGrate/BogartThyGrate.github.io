@@ -91,15 +91,9 @@ article p {
   top: -120px;
   right: -150px;
 }
-.main-hero .box2 {
-  bottom: -20px;
-  left: -150px;
-  transform: rotate(-45deg);
-  z-index: 2;
-}
-.main-hero .box1,
-.main-hero .box2 {
-  background-color: #252422;
+.main-hero .box1 {
+  background-color: transparent;
+  outline: 3px solid black;
   border-radius: 20px;
   height: 300px;
   width: 300px;

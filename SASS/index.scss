@@ -87,16 +87,10 @@ article {
     top: -120px;
     right: -150px;
   }
-  .box2 {
-    //box design
-    bottom: -20px;
-    left: -150px;
-    transform: rotate(-45deg);
-    z-index: 2;
-  }
-  .box1,
-  .box2 {
-    background-color: #252422;
+  
+  .box1{
+    background-color: transparent;
+    outline: 3px solid black;
     border-radius: 20px;
     height: 300px;
     width: 300px;
