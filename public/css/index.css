@@ -184,7 +184,7 @@ article p {
 }
 .project .col img {
   border-radius: 10px;
-  max-width: 450px;
+  width: 100%;
   margin: auto;
 }
 
